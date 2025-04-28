@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "prepare": "husky",
     "lint": "eslint . --ext .js,.jsx",
-    "format": "prettier --write."
+    "format": "prettier --write.",
+    "test": "vite build"
   },
   "dependencies": {
     "husky": "^9.1.7",
